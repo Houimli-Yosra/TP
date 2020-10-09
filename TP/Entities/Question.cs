@@ -8,9 +8,12 @@ namespace TP.Entities
 {
   public  class Question
     {
-        public int Id { get; set; }
+        public int QuesId { get; set; }
         public string Enonce { get; set; }
         public bool EstChoixMultiple { get; set; }
         public int Ordre { get; set; }
+        public List<Reponse> Reponses { get; set; }
+
+
     }
 }

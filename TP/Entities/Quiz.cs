@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TP.Entities
 {
-    class Reponses
+   public class Quiz
     {
+        public int QuizId { get; set; }
+        public string title { get; set; }
+       
     }
 }
